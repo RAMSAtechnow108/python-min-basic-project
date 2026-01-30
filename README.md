@@ -17,9 +17,7 @@ Zero-Division Safety: Includes a logical check to handle denominators of zero gr
 Persistent Interface: A while True loop ensures the tool stays active until the user explicitly exits.
 3. Command Line Interface (CLI) Calculator 🖥️
 A developer-focused tool that executes calculations directly via terminal arguments.
-Usage:
-python main.py <operation> <num1> <num2>
-(e.g., python main.py add 10 5)
+
 Key Features:
 System Integration: Utilizes the sys.argv module to process external arguments.
 Scripting Ready: Perfect for being called from other shell scripts or automation workflows.
